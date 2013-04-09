@@ -1,4 +1,5 @@
-define(["./has"], function(has){
+/* UMD.define */ (typeof define=="function"&&define||function(d,f,m){m={module:module,require:require};module.exports=f.apply(null,d.map(function(n){return m[n]||require(n)}))})
+(["./main"], function(has){
 	// module:
 	//		dojo/sniff
 
@@ -33,6 +34,8 @@ define(["./has"], function(has){
 		}
 		has.add("android", parseFloat(dua.split("Android ")[1]) || undefined);
 		has.add("bb", (dua.indexOf("BlackBerry") >= 0 || dua.indexOf("BB10") >= 0) && parseFloat(dua.split("Version/")[1]) || undefined);
+
+		has.add("phantomjs", typeof window.callPhantom == "function");
 
 		has.add("svg", typeof SVGAngle !== "undefined");
 

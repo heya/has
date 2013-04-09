@@ -1,0 +1,26 @@
+{
+  "name": "heya-has",
+  "version": "0.1.0",
+  "description": "Pure feature detection library, a la carte style.",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "heya-unit": ">=0.1"
+  },
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heya/has.git"
+  },
+  "keywords": [
+    "feature detection",
+    "has"
+  ],
+  "author": "Eugene Lazutkin <eugene.lazutkin@gmail.com> (http://lazutkin.com/)",
+  "license": "BSD"
+}
