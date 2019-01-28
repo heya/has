@@ -1,4 +1,4 @@
-# Has [![Build Status](https://travis-ci.org/heya/has.png?branch=master)](https://travis-ci.org/heya/has)
+# Has [![Build Status](https://travis-ci.org/heya/has.png?branch=master)](https://travis-ci.org/heya/has) [![Greenkeeper badge](https://badges.greenkeeper.io/heya/has.svg)](https://greenkeeper.io/)
 
 Pure feature detection library, a la carte style. It is based on dojo.has,
 which is based on [has.js](https://github.com/phiggins42/has.js/) started
